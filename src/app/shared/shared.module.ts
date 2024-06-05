@@ -5,8 +5,8 @@ import { RouterModule } from '@angular/router';
 import { AboutPageComponent } from './pages/aboutPage/aboutPage.component';
 import { ContactPageComponent } from './pages/contactPage/contactPage.component';
 import { HomePageComponent } from './pages/homePage/homePage.component';
+import { SearchBoxComponent } from './components/searchBox/searchBox.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
-
 
 
 @NgModule({
@@ -14,6 +14,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     AboutPageComponent,
     ContactPageComponent,
     HomePageComponent,
+    SearchBoxComponent,
     SidebarComponent
   ],
   imports: [
@@ -24,6 +25,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     AboutPageComponent,
     ContactPageComponent,
     HomePageComponent,
+    SearchBoxComponent,
     SidebarComponent
   ]
 })
